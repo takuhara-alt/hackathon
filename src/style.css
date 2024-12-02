@@ -1,0 +1,47 @@
+
+/* 完了したタスクにスタイルを追加 */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#app {
+    background-color: lightgray;
+    max-width: 400px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 10px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-left: 10px;
+}
+
+
+.list-grope{
+    display: flex;
+    list-style-type: none;
+    padding-left:100px;
+}
+.list-grope-li{
+    margin-right: 20px;  /* アイテム間の間隔を調整 */
+
+}
+.ul-grope{
+   display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+
+
+
