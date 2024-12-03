@@ -2,28 +2,6 @@
   <div id="app">
     <!-- タイトル -->
 
-    <div class="date-display">
-      <p>今日の日付: {{ currentDate }}</p>
-    </div>
-
-    <!-- 入力フォーム -->
-    <div class="todo-section">
-      <input
-          type="text"
-          v-model="newItem"
-          placeholder="アイテムを入力"
-      />
-      <button @click="addItem" class="add-btn">追加</button>
-    </div>
-
-
-    <!-- ToDoリスト -->
-    <ul class="ul-grope">
-      <li v-for="(item, index) in todos" :key="index">
-        <span>{{ item }}</span>
-        <button @click="removeItem(index)" class="delete-btn">削除</button>
-      </li>
-    </ul>
 
 <!--設定ページ-->
     <ul class="list-grope">
