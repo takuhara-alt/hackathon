@@ -1,21 +1,21 @@
 # my-vue-apli
 
-## Project setup
+## 初回セットアップ
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 開発環境の起動　開発を開始するには、次のコマンドを実行します。
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 本番ビル
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### コードの確認と修正
 ```
 npm run lint
 ```
