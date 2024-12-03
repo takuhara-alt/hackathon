@@ -11,7 +11,7 @@
       <input
           type="text"
           v-model="newItem"
-          placeholder="新しいアイテムを入力"
+          placeholder="アイテムを入力"
       />
       <button @click="addItem" class="add-btn">追加</button>
     </div>
