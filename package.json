@@ -1,3 +1,4 @@
+
 {
   "name": "my-vue-apli",
   "version": "0.1.0",
@@ -35,7 +36,7 @@
     },
     "rules": {
       "vue/multi-word-component-names": ["error", {
-        "ignores": ["Settings", "Home", "About"]
+        "ignores": ["Settings", "Home", "Todolist"]
       }]
     }
   },
@@ -46,3 +47,4 @@
     "not ie 11"
   ]
 }
+
