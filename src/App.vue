@@ -28,7 +28,6 @@
 <!--設定ページ-->
     <ul class="list-grope">
       <li class="list-grope-li"><router-link to="/Home">Home</router-link></li>
-      <li class="list-grope-li"><router-link to="/about">About</router-link></li>
       <li class="list-grope-li"><router-link to="/settings">Setting</router-link></li>
     </ul>
   </div>
@@ -44,6 +43,7 @@ export default {
       selectedLanguage: "ja", // 初期値は日本語
       fontSize: 16,           // 初期の文字の大きさ
       currentDate: "",        // 現在の日付
+
     };
   },
   created() {
