@@ -8,10 +8,10 @@
     <!-- ナビゲーション -->
     <nav class="app-nav">
       <ul>
-        <li><router-link to="/Home">home</router-link></li>
+        <li><router-link to="/Home">ホーム</router-link></li>
         <li><router-link to="/todo">ToDoリスト</router-link></li>
         <li><router-link to="/settings">設定</router-link></li>
-
+        <li><router-link to="/Progress">マップ</router-link></li>
       </ul>
     </nav>
 

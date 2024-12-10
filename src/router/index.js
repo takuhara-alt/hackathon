@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Settings from '../views/SettingsPage.vue';
 import TodoList from '../views/TodoList.vue';  // 追加: ToDoListコンポーネントをインポート
-
+import Progress from '@/views/Progress.vue';
 const routes = [
     {
         path: '/',
@@ -10,9 +10,15 @@ const routes = [
         component: Home,
     },
     {
+        path:'/Progress',
+        name:'Progress',
+        component:Progress,
+
+    },
+    {
         path: '/todo',
         name: 'todolist',
-        component: TodoList, // 修正: ToDoList がインポートされていることを確認
+        component: TodoList,
     },
     {
         path: '/settings',

@@ -1,5 +1,6 @@
 <template>
   <div class="todo">
+
     <h1>TODOリスト</h1>
     <table>
       <thead>
@@ -36,8 +37,9 @@ import { ref } from 'vue';
 
 // データ定義
 const todos = ref([
-  { comment: 'タスク1', completed: false },
-  { comment: 'タスク2', completed: true },
+  { comment: '今日は洗濯物をやろう', completed: false },
+  { comment: '床を今日は拭こう', completed: true },
+  { comment:'データがなくならないようにしよう',completed: false },
 ]);
 
 const newTodo = ref('');
