@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import MapView from '@/views/MapView.vue';
+import MapView from '@/components/MapView.vue';
 export default {
   name: 'ProgressView', // 複数単語に変更
   components: {
