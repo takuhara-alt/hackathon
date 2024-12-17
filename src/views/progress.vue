@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>地図表示</h1>
+    <h1>世界🗺️</h1>
     <MapView />
   </div>
 </template>

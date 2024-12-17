@@ -8,26 +8,24 @@ import L from 'leaflet';
 export default {
   name: 'MapView',
   mounted() {
-    // 地図の初期化
-    const map = L.map('map').setView([35.6895, 139.6917], 13); // 緯度, 経度, ズームレベル
+    // 知床国立公園の中心座標とズームレベル
+    const latitude = 44.3399; // 北緯
+    const longitude = 145.3294; // 東経
+    const zoomLevel = 15; // ズームレベル (詳細表示)
 
-    // タイルレイヤー (OpenStreetMap)
+    const map = L.map('map').setView([latitude, longitude], zoomLevel);
+
+    // タイルレイヤーを追加 (OpenStreetMapのデータを使用)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '&copy; OpenStreetMap contributors',
     }).addTo(map);
-
-    // サンプルマーカー
-    L.marker([35.6895, 139.6917])
-        .addTo(map)
-        .bindPopup('東京')
-        .openPopup();
   },
 };
 </script>
 
 <style scoped>
 .map-container {
-  height: 500px; /* 必要に応じて高さを調整 */
+  height: 500px;
   width: 100%;
 }
 </style>
