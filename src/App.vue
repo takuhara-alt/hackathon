@@ -4,7 +4,6 @@
     <header class="app-header">
       <h1>日常生活アプリ</h1>
     </header>
-
     <!-- ナビゲーション -->
     <nav class="app-nav">
       <ul>
