@@ -38,8 +38,20 @@ import { ref } from 'vue';
 // データ定義
 const todos = ref([
   { comment: '今日は洗濯物をやろう', completed: false },
-  { comment: '床を今日は拭こう', completed: true },
+  { comment: '床を今日は拭こう', completed: false },
   { comment:'データがなくならないようにしよう',completed: false },
+  { comment:'趣味【家の中でできるもの】',completed:false},
+  {comment:'趣味【家の外でできるもの】',completed:false},
+  {comment:'体を動かす　3分以上',completed:false},
+  {comment:'体を動かす　15分以上',completed:false},
+  {comment:'ボランティアや地域の集会に参加する',completed:false},
+  {comment:'歯磨きをする',completed:false},
+  {comment:'体調チェック（定期検診や体温を測る、体重を測る等）',completed:false},
+  {comment:'身だしなみを整える',completed:false},
+  {comment:'1日1回外にでる',completed:false},
+  {comment:'読する（毎日詩を送ってそれを声に出して読んでもらう）',completed:false},
+
+
 ]);
 
 const newTodo = ref('');
